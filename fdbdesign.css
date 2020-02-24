@@ -1,0 +1,79 @@
+body
+{
+    background-color:skyblue;
+}
+
+.container{
+    width: 60px;
+    margin: auto;
+    background-color:black;
+}
+.nav_menu
+{
+    list-style:none;
+    margin: 0px;
+    padding:0px;
+}
+.nav_menu li
+{
+    min-width: 8em;
+    float: left;
+    margin-right: 1em;
+    text-align: center
+}
+.nav_menu li a:link,
+.nav_menu li a:visited
+{
+    background-color: azure;
+    display: inline-grid;
+    padding: 0px;
+    text-decoration: none;
+    font-weight: bolder;
+    margin: 0 0 0.2em 0;
+    -weblit-border-radius:3px; 
+    -moz-border-radius:3px;
+    border-radius:3px;
+    
+}
+.nav_menu a{
+    display: block;
+    width: 100px;
+}
+.clear{
+    clear: both;
+}
+.fdbtext
+{
+    background-color: lightblue;
+    background-size: cover;
+    margin-left: 600;
+    text-align:left;
+    font-size: 25;
+
+}
+.fdbform{
+    background-color: lightblue;
+    margin-left: 600;
+    text-align: center;
+    font-size:20;
+
+}
+.msg
+{
+    width:750;
+}
+.contactus{
+    background-color: cornsilk;
+    margin-top: -334;
+    margin-right: 900;
+    margin-bottom: 350;
+}
+.cnttext{
+    background-color:cornsilk;
+    margin-top: -350;
+    margin-right: 900;
+    text-align: center;
+    font-size: 18;
+}
+
+

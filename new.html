@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>part picker</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <label for="platform">Select Platform </label>
+        <select id="brand">
+            <option value="">--Make a choice--</option>
+            <option value="intel">Intel</option>
+            <option value="amd">AMD</option>
+        </select>
+        <br>
+        <label for="platform">Select CPU </label>
+<!--        intel processor section-->
+        <section id="cpuIntel" class="is-hidden">
+            <select id="">
+                <option value="">--Make a choice--</option>
+                <option value="">Intel Pentium G4051</option>
+                <option value="">Intel Core i3 8100</option>
+                <option value="">Intel Core i5 8400</option>
+                <option value="">Intel Core i5 9500K</option>
+                <option value="">Intel Core i7 9700K</option>
+                <option value="">Intel Core i9 9900K</option>
+            </select>
+        </section>
+        <br>
+<!--        amd processor section-->
+        <section id="cpuAMD" class="is-hidden">
+            <select id="">
+                <option value="">--Make a choice--</option>
+                <option value="">AMD Athalon</option>
+                <option value="">Ryzen 3</option>
+                <option value="">Ryzen 5</option>
+                <option value="">Ryzen 7</option>
+                <option value="">Ryzen 9</option>
+                <option value="">Threadriper</option>
+            </select>
+        </section>
+
+    </div>
+
+    <script>
+        //        to hide cpu list initially
+        document.getElementsByClassName('is-hidden')[0].style.visibility = 'hidden';
+        document.getElementsByClassName('is-hidden')[1].style.visibility = 'hidden';
+        //        choose platform
+        const select = document.querySelector('select');
+        select.addEventListener('change', setPlatform);
+
+        function setPlatform() {
+            const choice = select.value;
+            var brandX = document.getElementById("cpuIntel");
+            var brandY = document.getElementById("cpuAMD");
+
+            if (choice === 'intel') {
+                brandX.style.visibility = 'visible';
+                brandY.style.visibility = 'hidden';
+            } else if (choice === 'amd') {
+                brandX.style.visibility = 'hidden';
+                brandY.style.visibility = 'visible';
+
+            } else {
+                brandX.style.visibility = 'hidden';
+                brandY.style.visibility = 'hidden';
+            }
+        }
+
+    </script>
+</body>
+
+</html>

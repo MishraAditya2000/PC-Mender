@@ -1,0 +1,152 @@
+body
+{
+    background-color:skyblue;
+}
+
+.container{
+    width: 60px;
+    margin: auto;
+    background-color:black;
+}
+.nav_menu
+{
+    list-style:none;
+    margin: 0px;
+    padding:0px;
+}
+.nav_menu li
+{
+    min-width: 8em;
+    float: left;
+    margin-right: 1em;
+    text-align: center
+}
+.nav_menu li a:link,
+.nav_menu li a:visited
+{
+    background-color: azure;
+    display: inline-grid;
+    padding: 0px;
+    text-decoration: none;
+    font-weight: bolder;
+    margin: 0 0 0.2em 0;
+    -weblit-border-radius:3px; 
+    -moz-border-radius:3px;
+    border-radius:3px;
+    
+}
+.nav_menu a{
+    display: block;
+    width: 100px;
+}
+.clear{
+    clear: both;
+}
+.head1{
+     background-color: white;
+    display: block;
+    font-size: 34;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 45;
+    margin-left: 100;
+    margin-right: 100;
+    border-radius:3px;
+}
+.hd{
+     background-color: white;
+    display: block;
+    font-size: 28;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 30;
+    margin-left: 150;
+    margin-right: 150;
+    border-radius:3px;
+}
+.basic{                  /*css for gaming pc.*/
+    margin-left: 10;
+    margin-top: 30;
+    border-radius:3%;
+    background-color: azure;
+    height:350;
+    width: 650;
+    text-align: center;
+    font-size:20;
+}
+.basic:hover{
+     background-color: dodgerblue;
+    color: white;
+}
+.midrange{
+    background-color: azure;
+    margin-left: 685;
+    margin-right:35;
+    margin-top: -375;
+    height:350;
+    width: 650;
+    border-radius: 3%;
+    text-align: center;
+    font-size: 20;
+}
+.midrange:hover{
+      background-color: dodgerblue;
+    color: white;
+}
+.xtrm{
+    background-color: azure;
+     height:350;
+    width: 650;
+    border-radius:3%;
+    margin-left: 320;
+    margin-right: 320;
+    text-align: center;
+    font-size:20;
+}
+.xtrm:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+.base{                          /*css for formal pc*/
+    margin-left: 15;
+    margin-top: 30;
+    border-radius:3%;
+    background-color: azure;
+    height:350;
+    width: 650;
+    text-align: center;
+    font-size:20; 
+}
+.base:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+.mid{
+    background-color: azure;
+    margin-left: 685;
+    margin-right:35;
+    margin-top: -375;
+    height:350;
+    width: 650;
+    border-radius: 3%;
+    text-align: center;
+    font-size: 20;
+}
+.mid:hover{
+   background-color: dodgerblue;
+    color: white; 
+}
+.ultm{
+    background-color: azure;
+     height:350;
+    width: 650;
+    border-radius:3%;
+    margin-left: 320;
+    margin-right: 320;
+    text-align: center;
+    font-size:20; 
+}
+.ultm:hover{
+  background-color: dodgerblue;
+    color: white;   
+}
